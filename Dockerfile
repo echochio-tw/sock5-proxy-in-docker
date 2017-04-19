@@ -1,0 +1,4 @@
+FROM busybox:ubuntu-14.04
+ADD s5 /s5
+EXPOSE 8080
+ENTRYPOINT /s5
